@@ -1,0 +1,1285 @@
+
+
+.hero {
+    min-height: 100vh;
+
+    position: relative;
+
+    background-image: url("hero-bg.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    color: white;
+}
+
+
+
+.hero-overlay {
+    position: absolute;
+
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.892);
+}
+
+
+
+.hero-content {
+    position: relative;
+
+    z-index: 2;
+}
+
+
+
+.hero-title {
+    font-size: 50px;
+
+    line-height: 1.15;
+
+    font-weight: 900;
+
+    margin-bottom: 25px;
+}
+
+.hero-title span {
+    color: #b6ff00;
+}
+
+
+
+.hero-text {
+    max-width: 560px;
+
+    color: #d0d0d0;
+
+    font-size: 15px;
+
+    line-height: 1.7;
+
+    margin-bottom: 30px;
+}
+
+
+.btn-tournament {
+    background-color: transparent !important;
+    color: #b6ff00 !important;
+    border: 2px solid #b6ff00 !important;
+
+    font-weight: 700;
+    padding: 14px 25px;
+    border-radius: 7px;
+
+    transition: all 0.3s ease;
+}
+
+.btn-tournament:hover {
+    background-color: #b6ff00 !important;
+    color: #000 !important;
+}
+.btn-gaming {
+    background-color: #b6ff00 !important;
+    color: #000 !important;
+    border: 2px solid #b6ff00 !important;
+
+    font-weight: 700;
+    padding: 14px 25px;
+    border-radius: 7px;
+}
+
+
+.btn-tournament {
+    color: #b6ff00;
+
+    border: 2px solid #b6ff00;
+
+    background: transparent;
+
+    font-weight: 700;
+
+    padding: 14px 25px;
+
+    border-radius: 7px;
+}
+
+.btn-tournament:hover {
+    background-color: #b6ff00;
+
+    color: #000;
+}
+
+
+
+.hero-image-area {
+    position: relative;
+
+    z-index: 2;
+
+    padding-left: 30px;
+}
+
+
+
+.gaming-image {
+    width: 100%;
+
+    border: 3px solid #b6ff00;
+
+    border-radius: 15px;
+
+    display: block;
+}
+
+
+
+.players-box {
+    position: absolute;
+
+    left: 10px;
+
+    bottom: -20px;
+
+    background-color: #090d13;
+
+    border: 1px solid #29313c;
+
+    border-radius: 8px;
+
+    padding: 18px 22px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    min-width: 135px;
+}
+
+
+.player-icon {
+    color: #b6ff00;
+
+    font-size: 22px;
+}
+
+
+.players-box small {
+    color: #8e949d;
+
+    font-size: 11px;
+}
+
+
+.players-box h4 {
+    margin: 2px 0 0;
+
+    color: white;
+
+    font-size: 18px;
+
+    font-weight: 700;
+}
+
+.games-section {
+    background-color: #090d12;
+    min-height: 680px;
+    padding: 85px 0 120px;
+    color: white;
+}
+
+
+
+
+.games-heading {
+    margin-bottom: 50px;
+}
+
+
+
+
+.section-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+
+    color: #b6ff00;
+
+    font-size: 13px;
+    font-weight: 800;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 15px;
+}
+
+
+
+
+.section-label span {
+    width: 50px;
+    height: 2px;
+
+    background-color: #b6ff00;
+}
+
+
+
+
+.games-heading h2 {
+    color: #f5f5f5;
+
+    font-size: 40px;
+
+    font-weight: 900;
+
+    margin: 0;
+}
+
+
+
+.game-card {
+    height: 235px;
+
+    position: relative;
+
+    overflow: hidden;
+
+    border-radius: 12px;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+
+
+
+.game-card img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+
+    transition: 0.4s ease;
+}
+
+
+
+
+.game-card:hover img {
+    transform: scale(1.05);
+}
+
+
+
+.game-active {
+    border: 2px solid #b6ff00;
+}
+
+
+
+.game-info {
+    position: absolute;
+
+    left: 20px;
+    bottom: 18px;
+
+    z-index: 2;
+}
+
+
+
+
+.game-info span {
+    font-size: 11px;
+
+    font-weight: 700;
+
+    color: white;
+
+    background-color: rgba(0, 0, 0, 0.45);
+
+    padding: 5px 8px;
+
+    border-radius: 4px;
+}
+
+.our-games {
+    background-color: #090d12;
+    padding: 90px 0 120px;
+}
+
+
+.games-title {
+    margin-bottom: 40px;
+}
+
+.section-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.section-name span {
+    width: 45px;
+    height: 2px;
+    background-color: #b6ff00;
+}
+
+.section-name p {
+    color: #b6ff00;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.games-title h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0;
+}
+
+
+
+.game-image {
+    width: 100%;
+    height: 300px;
+
+    object-fit: cover;
+
+    border-radius: 12px;
+
+    display: block;
+}
+
+
+
+
+
+.games-controls {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 12px;
+
+    margin-top: 30px;
+}
+
+
+
+
+.game-arrow {
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+
+    background-color: transparent;
+
+    border: 2px solid #273246;
+
+    color: white;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    transition: 0.3s;
+
+}
+
+
+.game-arrow:hover {
+
+    border-color: #b6ff00;
+
+    color: #b6ff00;
+
+}
+
+
+
+.view-games {
+
+    height: 50px;
+
+    padding: 0 25px;
+
+    background-color: transparent;
+
+    border: 2px solid #b6ff00;
+
+    color: #b6ff00;
+
+    font-weight: 700;
+
+    transition: 0.3s;
+
+}
+
+
+.view-games:hover {
+
+    background-color: #b6ff00;
+
+    color: #000;
+
+}
+
+
+.what-section {
+    background-color: #090d12;
+    padding: 70px 0 100px;
+    color: white;
+}
+
+
+
+.what-heading {
+    margin-bottom: 50px;
+}
+
+.what-heading h2 {
+    color: #f5f5f5;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 1.1;
+    margin: 0;
+}
+
+.what-heading h2 span {
+    color: #b6ff00;
+}
+
+
+
+.service-card {
+    height: 232px;
+
+    background-color: #171717;
+
+    border: 1px solid #263341;
+
+    border-radius: 12px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    position: relative;
+
+    transition: 0.3s ease;
+}
+
+
+
+.service-card:hover {
+    border-color: #b6ff00;
+
+    transform: translateY(-5px);
+}
+
+
+
+.active-card {
+    border: 1px solid #b6ff00;
+}
+
+
+
+.active-card::before {
+    content: "";
+
+    position: absolute;
+
+    top: 12px;
+    left: 12px;
+
+    width: 20px;
+    height: 20px;
+
+    border-top: 2px solid #b6ff00;
+    border-left: 2px solid #b6ff00;
+
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+}
+
+
+
+.active-card::after {
+    content: "";
+
+    position: absolute;
+
+    bottom: 12px;
+    right: 12px;
+
+    width: 20px;
+    height: 20px;
+
+    border-bottom: 2px solid #b6ff00;
+    border-right: 2px solid #b6ff00;
+
+    clip-path: polygon(100% 100%, 0 100%, 100% 0);
+}
+
+
+
+.service-icon {
+    width: 52px;
+    height: 52px;
+
+    background-color: #1d2a3c;
+
+    border-radius: 7px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 23px;
+
+    margin-bottom: 15px;
+}
+
+
+
+.active-card .service-icon {
+    background-color: #b6ff00;
+}
+
+
+
+.service-card h4 {
+    color: #f5f5f5;
+
+    font-size: 17px;
+
+    font-weight: 800;
+
+    line-height: 1.25;
+
+    margin: 0;
+}
+
+
+.service-image {
+    height: 232px;
+
+    overflow: hidden;
+
+    border-radius: 12px;
+
+    border: 1px solid #263341;
+}
+
+
+.service-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+
+    transition: 0.4s ease;
+}
+
+
+.service-image:hover img {
+    transform: scale(1.05);
+}
+.logo-slider {
+    width: 100%;
+    overflow: hidden;
+    padding: 30px 0;
+    position: relative;
+}
+
+.logo-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    width: max-content;
+
+    animation: moveLeft 25s linear infinite;
+}
+
+.second-row {
+    animation: moveRight 25s linear infinite;
+}
+
+.logo-row img {
+    width: 75px;
+    height: 75px;
+
+    object-fit: cover;
+
+    border-radius: 12px;
+
+    flex-shrink: 0;
+}
+
+@keyframes moveLeft {
+
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+
+}
+
+@keyframes moveRight {
+
+    from {
+        transform: translateX(-50%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+
+}
+.logo-slider {
+    width: 100%;
+    background-color: #080b0f;
+    padding: 35px 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.logo-slider::before {
+    content: "";
+    position: absolute;
+
+    width: 1000px;
+    height: 400px;
+
+    background: #9cff00;
+    opacity: 0.20;
+
+    filter: blur(120px);
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    z-index: 0;
+}
+
+.logo-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    width: max-content;
+
+    position: relative;
+    z-index: 1;
+
+    margin-bottom: 12px;
+}
+
+.logo-row img {
+    width: 90px;
+    height: 65px;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+
+    flex-shrink: 0;
+
+    display: block;
+}
+
+.team-section {
+    background-color: #080d13;
+    padding: 80px 0;
+    color: white;
+}
+
+
+
+
+.team-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.team-title span {
+    color: #b7ff00;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.team-title h2 {
+    color: white;
+    font-size: 40px;
+    margin: 15px 0;
+}
+
+.team-title p {
+    color: #9ca3af;
+    font-size: 16px;
+}
+
+
+
+.team-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 26px;
+}
+
+
+
+.team-card {
+    width: calc(25% - 20px);
+    height: 255px;
+
+    position: relative;
+
+    overflow: hidden;
+
+    border-radius: 15px;
+
+    background-color: #151515;
+}
+
+.team-card img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+
+    filter: grayscale(100%);
+
+    transition: 0.5s;
+}
+
+
+.team-card::after {
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    bottom: 0;
+
+    width: 100%;
+    height: 55%;
+
+    background: linear-gradient(
+        transparent,
+        rgba(0, 0, 0, 0.95)
+    );
+
+    z-index: 1;
+}
+
+
+.team-info {
+    position: absolute;
+
+    left: 18px;
+    bottom: 18px;
+
+    z-index: 2;
+
+    color: white;
+}
+
+
+
+.team-info h3 {
+    margin: 0 0 8px 0;
+
+    color: white;
+
+    font-size: 17px;
+
+    font-weight: bold;
+}
+
+
+
+.team-info p {
+    margin: 0 0 4px 0;
+
+    color: #ffffff;
+
+    font-size: 12px;
+}
+
+
+
+.team-info small {
+    color: #9ca3af;
+
+    font-size: 10px;
+}
+
+
+.team-card:hover img {
+    filter: grayscale(0%);
+
+    transform: scale(1.05);
+}
+
+
+
+.team-card:hover::before {
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    bottom: 0;
+
+    width: 100%;
+    height: 5px;
+
+    background: #b7ff00;
+
+    z-index: 3;
+}
+
+.contact-section {
+    background-color: #080c13;
+    min-height: 100vh;
+    padding: 100px 0 80px;
+    color: white;
+}
+
+.contact-container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+
+.contact-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact-title span {
+    color: #b7ff00;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.contact-title h2 {
+    color: white;
+    font-size: 42px;
+    font-weight: 800;
+    margin: 12px 0;
+}
+
+.contact-title p {
+    color: #929aaa;
+    font-size: 16px;
+    margin: 0;
+}
+
+
+.contact-content {
+    display: flex;
+    flex-direction: row;
+    gap: 38px;
+    align-items: flex-start;
+}
+
+
+
+.contact-left {
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+.info-card {
+    background-color: #1d293a;
+
+    min-height: 120px;
+
+    border-radius: 12px;
+
+    padding: 25px;
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+
+    gap: 20px;
+
+    box-sizing: border-box;
+}
+
+
+
+.info-icon {
+    width: 50px;
+    height: 50px;
+
+    min-width: 50px;
+
+    border-radius: 50%;
+
+    background-color: #b7ff00;
+
+    color: #07100a;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 20px;
+}
+
+
+
+.info-card h3 {
+    margin: 0 0 5px;
+
+    font-size: 18px;
+
+    color: white;
+}
+
+.info-card p {
+    margin: 0;
+
+    color: #929aaa;
+
+    font-size: 13px;
+}
+
+
+
+.community-card {
+    background: linear-gradient(
+        120deg,
+        #b7ff00,
+        #24e66f
+    );
+
+    min-height: 165px;
+
+    border-radius: 12px;
+
+    padding: 25px;
+
+    color: #07100a;
+
+    box-sizing: border-box;
+}
+
+.community-card h3 {
+    margin: 0 0 12px;
+
+    font-size: 21px;
+}
+
+.community-card p {
+    margin: 0 0 20px;
+
+    font-size: 13px;
+}
+
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.social-icons a {
+    width: 38px;
+    height: 38px;
+
+    border-radius: 50%;
+
+    background-color: #05090d;
+
+    color: #b7ff00;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    transform: translateY(-5px);
+}
+
+
+.contact-form {
+    width: 50%;
+
+    background-color: #1d293a;
+
+    border-radius: 12px;
+
+    padding: 28px;
+
+    box-sizing: border-box;
+}
+
+.contact-form h2 {
+    margin: 0 0 25px;
+
+    color: white;
+
+    font-size: 22px;
+}
+
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+
+    color: white;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    margin-bottom: 7px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+
+    box-sizing: border-box;
+
+    border: 1px solid #4a5669;
+
+    background-color: #354257;
+
+    border-radius: 6px;
+
+    color: white;
+
+    outline: none;
+
+    padding: 12px;
+
+    font-size: 13px;
+}
+
+.form-group input {
+    height: 40px;
+}
+
+.form-group select {
+    height: 40px;
+}
+
+.form-group textarea {
+    height: 115px;
+
+    resize: none;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #929aaa;
+}
+
+
+
+.name-row {
+    display: flex;
+    gap: 18px;
+}
+
+.name-row .form-group {
+    width: 50%;
+}
+
+
+.checkbox-row {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+
+    gap: 10px;
+
+    margin: 5px 0 20px;
+}
+
+.checkbox-row input {
+    width: 16px;
+    height: 16px;
+}
+
+.checkbox-row span {
+    color: #929aaa;
+
+    font-size: 11px;
+}
+
+
+.contact-form button {
+    width: 100%;
+
+    height: 48px;
+
+    border: none;
+
+    border-radius: 6px;
+
+    background-color: #b7ff00;
+
+    color: #07100a;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 10px;
+
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    transform: translateY(-2px);
+}
+
+
+
+.form-stats {
+    border-top: 1px solid #354257;
+
+    margin-top: 25px;
+
+    padding-top: 25px;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+
+    text-align: center;
+}
+
+.form-stats div {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 5px;
+}
+
+.form-stats strong {
+    color: #b7ff00;
+
+    font-size: 20px;
+}
+
+.form-stats span {
+    color: #929aaa;
+
+    font-size: 11px;
+}
+
+
+@media (max-width: 768px) {
+
+    .contact-section {
+        padding: 80px 0 50px;
+    }
+
+    .contact-container {
+        width: 90%;
+    }
+
+    .contact-title h2 {
+        font-size: 30px;
+    }
+
+    .contact-content {
+        flex-direction: column;
+    }
+
+    .contact-left,
+    .contact-form {
+        width: 100%;
+    }
+
+    .name-row {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .name-row .form-group {
+        width: 100%;
+    }
+
+    .info-card {
+        min-height: 100px;
+    }
+}

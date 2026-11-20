@@ -1,0 +1,27 @@
+@media (max-width: 991px) {
+
+    .navbar-toggler {
+        display: block !important;
+    }
+
+    #mainNavbar .navbar-nav {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        width: 100% !important;
+        gap: 20px !important;
+    }
+
+    #mainNavbar .nav-item {
+        width: 100%;
+    }
+
+    #mainNavbar .nav-link {
+        width: 100%;
+        display: block;
+    }
+
+    #mainNavbar {
+        width: 100%;
+    }
+}
